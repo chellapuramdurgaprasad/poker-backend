@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("v1/users")
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "https://poker-gamenn.netlify.app")
 public class RegisterController {
 
     @Autowired
